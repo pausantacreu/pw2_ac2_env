@@ -1,0 +1,23 @@
+{
+    "name": "ac2/www",
+    "description": "AC2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ac2\\www\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pau Santacreu"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.13",
+        "slim/psr7": "^1.6",
+        "slim/twig-view": "^3.3",
+        "php-di/slim-bridge": "^3.4",
+        "dflydev/fig-cookies": "^3.1",
+        "slim/flash": "^0.4.0"
+    }
+}
